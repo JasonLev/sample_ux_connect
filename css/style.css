@@ -1,0 +1,112 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: -6em;
+}
+header, footer{
+  background-color: black;
+  color: orange;
+  height: 2em;
+  padding: 2em;
+}
+header>h1{
+  float: left;
+  margin: 0;
+}
+nav {
+  float: right;
+}
+a {
+  text-decoration: none;
+  margin: 1em;
+}
+nav a#selected,
+nav a:hover,
+.fa_group > a,
+#connect,
+.learnMore {
+  color: orange;
+}
+nav a {
+  color: #fff;
+}
+.fa_group{
+  text-align: center;
+}
+main {
+  background-image: url(https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg);
+  min-height: 400px;
+  background-size: cover;
+  padding: 10%;
+}
+@media screen and (max-width: 920px){
+  main {
+    min-height: 535px;
+  }
+}
+@media screen and (max-width: 844px){
+  .sign-wrapper {
+    margin-bottom: -2em;
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 844px){
+  .sectionsContainer {
+    min-height: 607.25px;
+  }
+}
+#mainBox {
+  background-color: rgba(0,0,0,0.8);
+  max-width: 50%;
+  min-width: 300px;
+  min-height: 300px;
+  margin: 20px auto;
+  padding: 20px 20px 10px;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-family: 'Oxygen', sans-serif;
+  position: relative;
+}
+#mainBox > h1 {
+  font-size: 3em;
+  position: relative;
+}
+#mainBoxBottom {
+  margin: 60px 0 10px;
+}
+button {
+  background-color: orange;
+  font-size: 2em;
+  border: black solid 2px;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Oxygen', sans-serif;
+}
+.sectionsContainer{
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 5%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.dotted {
+  border-top: white dotted 1px;
+}
+section {
+  display: inline-block;
+  margin: 40px;
+}
+section img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+.sectionTitle {
+  text-transform: uppercase;
+}
