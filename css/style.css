@@ -24,6 +24,7 @@ nav {
 #logo {
   color: inherit;
   margin: inherit;
+  display: inline;
   /*text-decoration: */
 }
 a {
